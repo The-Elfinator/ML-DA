@@ -10,7 +10,7 @@ import sacrebleu
 BATCH_SIZE = 32
 
 data = []
-with open('../../lab3/Dataset/rus.txt', 'r', encoding='utf-8') as file:
+with open('../Dataset/rus.txt', 'r', encoding='utf-8') as file:
     for line in file:
         parts = line.strip().split('\t')
         if len(parts) >= 2:
