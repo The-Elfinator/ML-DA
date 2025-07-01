@@ -1,0 +1,340 @@
+Best Hyperparameters:
+{
+    "num_filters": 64,
+    "kernel_size": 4,
+    "num_conv_layers": 3,
+    "dropout_rate": 0.30566348890628353,
+    "learning_rate": 0.0003354011509627172,
+    "num_epochs": 15,
+    "batch_size": 64
+}
+
+Best Accuracy:
+0.7827
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\timti\AppData\Local\Programs\Python\Python312\python.exe C:\Users\timti\PycharmProjects\ADVML\lab5\code\hyper_params_finder.py
+[I 2024-12-26 01:30:13,570] A new study created in memory with name: no-name-63b1e9fd-6adc-4d68-923a-4d2c3b4caf85
+C:\Users\timti\PycharmProjects\ADVML\lab5\code\hyper_params_finder.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 0:
+  num_filters = 16, kernel_size = 5, num_conv_layers = 2, dropout_rate = 0.45558101232273795, learning_rate = 0.008430220304979362, batch_size = 64
+epochs = 15
+[I 2024-12-26 01:31:38,411] Trial 0 finished with value: 0.429 and parameters: {'num_filters': 16, 'kernel_size': 5, 'num_conv_layers': 2, 'dropout_rate': 0.45558101232273795, 'learning_rate': 0.008430220304979362, 'num_epochs': 15, 'batch_size': 64}. Best is trial 0 with value: 0.429.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 1:
+  num_filters = 48, kernel_size = 5, num_conv_layers = 3, dropout_rate = 0.34817566232664077, learning_rate = 0.0021589794153394947, batch_size = 64
+epochs = 20
+[I 2024-12-26 01:33:22,736] Trial 1 finished with value: 0.7122 and parameters: {'num_filters': 48, 'kernel_size': 5, 'num_conv_layers': 3, 'dropout_rate': 0.34817566232664077, 'learning_rate': 0.0021589794153394947, 'num_epochs': 20, 'batch_size': 64}. Best is trial 1 with value: 0.7122.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 2:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.34669210430927533, learning_rate = 0.003451342013325364, batch_size = 256
+epochs = 5
+[I 2024-12-26 01:33:45,624] Trial 2 finished with value: 0.1 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.34669210430927533, 'learning_rate': 0.003451342013325364, 'num_epochs': 5, 'batch_size': 256}. Best is trial 1 with value: 0.7122.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 3:
+  num_filters = 16, kernel_size = 4, num_conv_layers = 2, dropout_rate = 0.15590417280231694, learning_rate = 0.00019483876131229328, batch_size = 32
+epochs = 15
+[I 2024-12-26 01:35:33,645] Trial 3 finished with value: 0.6787 and parameters: {'num_filters': 16, 'kernel_size': 4, 'num_conv_layers': 2, 'dropout_rate': 0.15590417280231694, 'learning_rate': 0.00019483876131229328, 'num_epochs': 15, 'batch_size': 32}. Best is trial 1 with value: 0.7122.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 4:
+  num_filters = 64, kernel_size = 5, num_conv_layers = 1, dropout_rate = 0.2969058093196888, learning_rate = 0.000479078873427835, batch_size = 64
+epochs = 10
+[I 2024-12-26 01:36:25,030] Trial 4 finished with value: 0.6959 and parameters: {'num_filters': 64, 'kernel_size': 5, 'num_conv_layers': 1, 'dropout_rate': 0.2969058093196888, 'learning_rate': 0.000479078873427835, 'num_epochs': 10, 'batch_size': 64}. Best is trial 1 with value: 0.7122.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 5:
+  num_filters = 32, kernel_size = 3, num_conv_layers = 3, dropout_rate = 0.3381010072724163, learning_rate = 0.001216090396282169, batch_size = 64
+epochs = 5
+[I 2024-12-26 01:36:55,864] Trial 5 finished with value: 0.7482 and parameters: {'num_filters': 32, 'kernel_size': 3, 'num_conv_layers': 3, 'dropout_rate': 0.3381010072724163, 'learning_rate': 0.001216090396282169, 'num_epochs': 5, 'batch_size': 64}. Best is trial 5 with value: 0.7482.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 6:
+  num_filters = 64, kernel_size = 5, num_conv_layers = 2, dropout_rate = 0.3325509222617511, learning_rate = 0.000879888223708383, batch_size = 256
+epochs = 20
+[I 2024-12-26 01:38:19,927] Trial 6 finished with value: 0.7566 and parameters: {'num_filters': 64, 'kernel_size': 5, 'num_conv_layers': 2, 'dropout_rate': 0.3325509222617511, 'learning_rate': 0.000879888223708383, 'num_epochs': 20, 'batch_size': 256}. Best is trial 6 with value: 0.7566.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 7:
+  num_filters = 16, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.2218732365094351, learning_rate = 0.000395039191314496, batch_size = 32
+epochs = 15
+[I 2024-12-26 01:40:17,091] Trial 7 finished with value: 0.7361 and parameters: {'num_filters': 16, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.2218732365094351, 'learning_rate': 0.000395039191314496, 'num_epochs': 15, 'batch_size': 32}. Best is trial 6 with value: 0.7566.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 8:
+  num_filters = 48, kernel_size = 5, num_conv_layers = 3, dropout_rate = 0.21528685833856576, learning_rate = 0.0003165647575961898, batch_size = 32
+epochs = 20
+[I 2024-12-26 01:42:49,862] Trial 8 finished with value: 0.7525 and parameters: {'num_filters': 48, 'kernel_size': 5, 'num_conv_layers': 3, 'dropout_rate': 0.21528685833856576, 'learning_rate': 0.0003165647575961898, 'num_epochs': 20, 'batch_size': 32}. Best is trial 6 with value: 0.7566.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 9:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 2, dropout_rate = 0.435678666296092, learning_rate = 0.00517734939539208, batch_size = 128
+epochs = 15
+[I 2024-12-26 01:43:59,631] Trial 9 finished with value: 0.586 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 2, 'dropout_rate': 0.435678666296092, 'learning_rate': 0.00517734939539208, 'num_epochs': 15, 'batch_size': 128}. Best is trial 6 with value: 0.7566.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 10:
+  num_filters = 48, kernel_size = 3, num_conv_layers = 1, dropout_rate = 0.48788848093663933, learning_rate = 0.00010882604252534425, batch_size = 256
+epochs = 20
+[I 2024-12-26 01:45:22,312] Trial 10 finished with value: 0.6311 and parameters: {'num_filters': 48, 'kernel_size': 3, 'num_conv_layers': 1, 'dropout_rate': 0.48788848093663933, 'learning_rate': 0.00010882604252534425, 'num_epochs': 20, 'batch_size': 256}. Best is trial 6 with value: 0.7566.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 11:
+  num_filters = 48, kernel_size = 5, num_conv_layers = 2, dropout_rate = 0.2308343673511318, learning_rate = 0.0006500324612364851, batch_size = 32
+epochs = 20
+[I 2024-12-26 01:47:42,450] Trial 11 finished with value: 0.7361 and parameters: {'num_filters': 48, 'kernel_size': 5, 'num_conv_layers': 2, 'dropout_rate': 0.2308343673511318, 'learning_rate': 0.0006500324612364851, 'num_epochs': 20, 'batch_size': 32}. Best is trial 6 with value: 0.7566.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 12:
+  num_filters = 32, kernel_size = 5, num_conv_layers = 2, dropout_rate = 0.14257403124073076, learning_rate = 0.0012226701553930167, batch_size = 256
+epochs = 20
+[I 2024-12-26 01:49:07,564] Trial 12 finished with value: 0.7184 and parameters: {'num_filters': 32, 'kernel_size': 5, 'num_conv_layers': 2, 'dropout_rate': 0.14257403124073076, 'learning_rate': 0.0012226701553930167, 'num_epochs': 20, 'batch_size': 256}. Best is trial 6 with value: 0.7566.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 13:
+  num_filters = 64, kernel_size = 5, num_conv_layers = 1, dropout_rate = 0.2527723701351011, learning_rate = 0.0002628967744898773, batch_size = 128
+epochs = 10
+[I 2024-12-26 01:49:52,321] Trial 13 finished with value: 0.6756 and parameters: {'num_filters': 64, 'kernel_size': 5, 'num_conv_layers': 1, 'dropout_rate': 0.2527723701351011, 'learning_rate': 0.0002628967744898773, 'num_epochs': 10, 'batch_size': 128}. Best is trial 6 with value: 0.7566.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 14:
+  num_filters = 48, kernel_size = 5, num_conv_layers = 3, dropout_rate = 0.18595412970028938, learning_rate = 0.0006749060473993904, batch_size = 32
+epochs = 20
+[I 2024-12-26 01:52:24,906] Trial 14 finished with value: 0.756 and parameters: {'num_filters': 48, 'kernel_size': 5, 'num_conv_layers': 3, 'dropout_rate': 0.18595412970028938, 'learning_rate': 0.0006749060473993904, 'num_epochs': 20, 'batch_size': 32}. Best is trial 6 with value: 0.7566.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 15:
+  num_filters = 32, kernel_size = 4, num_conv_layers = 2, dropout_rate = 0.10431586350135957, learning_rate = 0.0008110253778201873, batch_size = 256
+epochs = 20
+[I 2024-12-26 01:53:50,471] Trial 15 finished with value: 0.723 and parameters: {'num_filters': 32, 'kernel_size': 4, 'num_conv_layers': 2, 'dropout_rate': 0.10431586350135957, 'learning_rate': 0.0008110253778201873, 'num_epochs': 20, 'batch_size': 256}. Best is trial 6 with value: 0.7566.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 16:
+  num_filters = 64, kernel_size = 5, num_conv_layers = 2, dropout_rate = 0.4150628894848013, learning_rate = 0.0017425553610343765, batch_size = 256
+epochs = 10
+[I 2024-12-26 01:54:33,465] Trial 16 finished with value: 0.7158 and parameters: {'num_filters': 64, 'kernel_size': 5, 'num_conv_layers': 2, 'dropout_rate': 0.4150628894848013, 'learning_rate': 0.0017425553610343765, 'num_epochs': 10, 'batch_size': 256}. Best is trial 6 with value: 0.7566.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 17:
+  num_filters = 48, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.28458596565431626, learning_rate = 0.0006649486321189855, batch_size = 32
+epochs = 15
+[I 2024-12-26 01:56:20,841] Trial 17 finished with value: 0.7678 and parameters: {'num_filters': 48, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.28458596565431626, 'learning_rate': 0.0006649486321189855, 'num_epochs': 15, 'batch_size': 32}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 18:
+  num_filters = 64, kernel_size = 3, num_conv_layers = 1, dropout_rate = 0.29014842916661354, learning_rate = 0.0026813348296795894, batch_size = 128
+epochs = 15
+[I 2024-12-26 01:57:27,647] Trial 18 finished with value: 0.6203 and parameters: {'num_filters': 64, 'kernel_size': 3, 'num_conv_layers': 1, 'dropout_rate': 0.29014842916661354, 'learning_rate': 0.0026813348296795894, 'num_epochs': 15, 'batch_size': 128}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 19:
+  num_filters = 48, kernel_size = 4, num_conv_layers = 2, dropout_rate = 0.39870308475371896, learning_rate = 0.0001511105543339235, batch_size = 32
+epochs = 15
+[I 2024-12-26 01:59:15,712] Trial 19 finished with value: 0.7334 and parameters: {'num_filters': 48, 'kernel_size': 4, 'num_conv_layers': 2, 'dropout_rate': 0.39870308475371896, 'learning_rate': 0.0001511105543339235, 'num_epochs': 15, 'batch_size': 32}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 20:
+  num_filters = 32, kernel_size = 3, num_conv_layers = 3, dropout_rate = 0.38074908756401615, learning_rate = 0.0013659530348145168, batch_size = 256
+epochs = 10
+[I 2024-12-26 01:59:59,786] Trial 20 finished with value: 0.7595 and parameters: {'num_filters': 32, 'kernel_size': 3, 'num_conv_layers': 3, 'dropout_rate': 0.38074908756401615, 'learning_rate': 0.0013659530348145168, 'num_epochs': 10, 'batch_size': 256}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 21:
+  num_filters = 32, kernel_size = 3, num_conv_layers = 3, dropout_rate = 0.37747013904424287, learning_rate = 0.0013108894055403617, batch_size = 256
+epochs = 10
+[I 2024-12-26 02:00:43,697] Trial 21 finished with value: 0.7511 and parameters: {'num_filters': 32, 'kernel_size': 3, 'num_conv_layers': 3, 'dropout_rate': 0.37747013904424287, 'learning_rate': 0.0013108894055403617, 'num_epochs': 10, 'batch_size': 256}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 22:
+  num_filters = 32, kernel_size = 3, num_conv_layers = 3, dropout_rate = 0.266716004027409, learning_rate = 0.0005281254766769604, batch_size = 256
+epochs = 10
+[I 2024-12-26 02:01:27,616] Trial 22 finished with value: 0.7169 and parameters: {'num_filters': 32, 'kernel_size': 3, 'num_conv_layers': 3, 'dropout_rate': 0.266716004027409, 'learning_rate': 0.0005281254766769604, 'num_epochs': 10, 'batch_size': 256}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 23:
+  num_filters = 32, kernel_size = 3, num_conv_layers = 3, dropout_rate = 0.33124886473342974, learning_rate = 0.0008896411492945735, batch_size = 256
+epochs = 5
+[I 2024-12-26 02:01:50,300] Trial 23 finished with value: 0.6889 and parameters: {'num_filters': 32, 'kernel_size': 3, 'num_conv_layers': 3, 'dropout_rate': 0.33124886473342974, 'learning_rate': 0.0008896411492945735, 'num_epochs': 5, 'batch_size': 256}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 24:
+  num_filters = 48, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.3712283211117074, learning_rate = 0.0017809816752160244, batch_size = 256
+epochs = 10
+[I 2024-12-26 02:02:33,859] Trial 24 finished with value: 0.7641 and parameters: {'num_filters': 48, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.3712283211117074, 'learning_rate': 0.0017809816752160244, 'num_epochs': 10, 'batch_size': 256}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 25:
+  num_filters = 48, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.3819111119575436, learning_rate = 0.003791610367213959, batch_size = 256
+epochs = 10
+[I 2024-12-26 02:03:17,771] Trial 25 finished with value: 0.5039 and parameters: {'num_filters': 48, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.3819111119575436, 'learning_rate': 0.003791610367213959, 'num_epochs': 10, 'batch_size': 256}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 26:
+  num_filters = 48, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.46130513408935087, learning_rate = 0.0016644444230666177, batch_size = 32
+epochs = 10
+[I 2024-12-26 02:04:35,601] Trial 26 finished with value: 0.7136 and parameters: {'num_filters': 48, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.46130513408935087, 'learning_rate': 0.0016644444230666177, 'num_epochs': 10, 'batch_size': 32}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 27:
+  num_filters = 32, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.37230890696089214, learning_rate = 0.006094099995791086, batch_size = 128
+epochs = 5
+[I 2024-12-26 02:05:00,174] Trial 27 finished with value: 0.1 and parameters: {'num_filters': 32, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.37230890696089214, 'learning_rate': 0.006094099995791086, 'num_epochs': 5, 'batch_size': 128}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 28:
+  num_filters = 48, kernel_size = 3, num_conv_layers = 3, dropout_rate = 0.30845017733984736, learning_rate = 0.0028111680136244602, batch_size = 256
+epochs = 10
+[I 2024-12-26 02:05:43,861] Trial 28 finished with value: 0.7409 and parameters: {'num_filters': 48, 'kernel_size': 3, 'num_conv_layers': 3, 'dropout_rate': 0.30845017733984736, 'learning_rate': 0.0028111680136244602, 'num_epochs': 10, 'batch_size': 256}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 29:
+  num_filters = 16, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.42711550690071765, learning_rate = 0.0019828219876603594, batch_size = 64
+epochs = 15
+[I 2024-12-26 02:07:14,093] Trial 29 finished with value: 0.7082 and parameters: {'num_filters': 16, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.42711550690071765, 'learning_rate': 0.0019828219876603594, 'num_epochs': 15, 'batch_size': 64}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 30:
+  num_filters = 32, kernel_size = 3, num_conv_layers = 3, dropout_rate = 0.4739393716626704, learning_rate = 0.0013178435161545642, batch_size = 32
+epochs = 15
+[I 2024-12-26 02:09:11,910] Trial 30 finished with value: 0.7474 and parameters: {'num_filters': 32, 'kernel_size': 3, 'num_conv_layers': 3, 'dropout_rate': 0.4739393716626704, 'learning_rate': 0.0013178435161545642, 'num_epochs': 15, 'batch_size': 32}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 31:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 2, dropout_rate = 0.32245219449043283, learning_rate = 0.0009077909163763468, batch_size = 256
+epochs = 10
+[I 2024-12-26 02:09:56,731] Trial 31 finished with value: 0.7422 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 2, 'dropout_rate': 0.32245219449043283, 'learning_rate': 0.0009077909163763468, 'num_epochs': 10, 'batch_size': 256}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 32:
+  num_filters = 48, kernel_size = 4, num_conv_layers = 2, dropout_rate = 0.36312972159023577, learning_rate = 0.0006801129106237456, batch_size = 256
+epochs = 15
+[I 2024-12-26 02:11:02,806] Trial 32 finished with value: 0.7429 and parameters: {'num_filters': 48, 'kernel_size': 4, 'num_conv_layers': 2, 'dropout_rate': 0.36312972159023577, 'learning_rate': 0.0006801129106237456, 'num_epochs': 15, 'batch_size': 256}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 33:
+  num_filters = 48, kernel_size = 5, num_conv_layers = 2, dropout_rate = 0.26245957869442765, learning_rate = 0.002351298828990802, batch_size = 256
+epochs = 5
+[I 2024-12-26 02:11:25,184] Trial 33 finished with value: 0.6154 and parameters: {'num_filters': 48, 'kernel_size': 5, 'num_conv_layers': 2, 'dropout_rate': 0.26245957869442765, 'learning_rate': 0.002351298828990802, 'num_epochs': 5, 'batch_size': 256}. Best is trial 17 with value: 0.7678.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 34:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.34686359139170253, learning_rate = 0.0010737539801999743, batch_size = 256
+epochs = 10
+[I 2024-12-26 02:12:08,474] Trial 34 finished with value: 0.7748 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.34686359139170253, 'learning_rate': 0.0010737539801999743, 'num_epochs': 10, 'batch_size': 256}. Best is trial 34 with value: 0.7748.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 35:
+  num_filters = 16, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.35481887760151415, learning_rate = 0.0014809308864344062, batch_size = 64
+epochs = 10
+[I 2024-12-26 02:13:09,171] Trial 35 finished with value: 0.7246 and parameters: {'num_filters': 16, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.35481887760151415, 'learning_rate': 0.0014809308864344062, 'num_epochs': 10, 'batch_size': 64}. Best is trial 34 with value: 0.7748.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 36:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.3971597337300132, learning_rate = 0.0036016551709057982, batch_size = 256
+epochs = 10
+[I 2024-12-26 02:13:53,303] Trial 36 finished with value: 0.5114 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.3971597337300132, 'learning_rate': 0.0036016551709057982, 'num_epochs': 10, 'batch_size': 256}. Best is trial 34 with value: 0.7748.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 37:
+  num_filters = 32, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.2863272038646826, learning_rate = 0.009768159547321749, batch_size = 256
+epochs = 5
+[I 2024-12-26 02:14:16,105] Trial 37 finished with value: 0.4687 and parameters: {'num_filters': 32, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.2863272038646826, 'learning_rate': 0.009768159547321749, 'num_epochs': 5, 'batch_size': 256}. Best is trial 34 with value: 0.7748.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 38:
+  num_filters = 48, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.31767784184918807, learning_rate = 0.00048514122101373224, batch_size = 64
+epochs = 10
+[I 2024-12-26 02:15:11,200] Trial 38 finished with value: 0.7711 and parameters: {'num_filters': 48, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.31767784184918807, 'learning_rate': 0.00048514122101373224, 'num_epochs': 10, 'batch_size': 64}. Best is trial 34 with value: 0.7748.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 39:
+  num_filters = 48, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.30398823250837265, learning_rate = 0.0004513310925577221, batch_size = 64
+epochs = 15
+[I 2024-12-26 02:16:31,971] Trial 39 finished with value: 0.7688 and parameters: {'num_filters': 48, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.30398823250837265, 'learning_rate': 0.0004513310925577221, 'num_epochs': 15, 'batch_size': 64}. Best is trial 34 with value: 0.7748.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 40:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.31016015754046034, learning_rate = 0.0003953997864875781, batch_size = 64
+epochs = 15
+[I 2024-12-26 02:17:54,160] Trial 40 finished with value: 0.7754 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.31016015754046034, 'learning_rate': 0.0003953997864875781, 'num_epochs': 15, 'batch_size': 64}. Best is trial 40 with value: 0.7754.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 41:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.30566348890628353, learning_rate = 0.0003354011509627172, batch_size = 64
+epochs = 15
+[I 2024-12-26 02:19:15,315] Trial 41 finished with value: 0.7827 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.30566348890628353, 'learning_rate': 0.0003354011509627172, 'num_epochs': 15, 'batch_size': 64}. Best is trial 41 with value: 0.7827.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 42:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.31217877849381426, learning_rate = 0.0003427141516084317, batch_size = 64
+epochs = 15
+[I 2024-12-26 02:20:37,225] Trial 42 finished with value: 0.7818 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.31217877849381426, 'learning_rate': 0.0003427141516084317, 'num_epochs': 15, 'batch_size': 64}. Best is trial 41 with value: 0.7827.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 43:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.3235197886724288, learning_rate = 0.0002674657382261903, batch_size = 64
+epochs = 15
+[I 2024-12-26 02:21:58,391] Trial 43 finished with value: 0.7786 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.3235197886724288, 'learning_rate': 0.0002674657382261903, 'num_epochs': 15, 'batch_size': 64}. Best is trial 41 with value: 0.7827.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 44:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.3414877997973628, learning_rate = 0.00024648960496627035, batch_size = 64
+epochs = 15
+[I 2024-12-26 02:23:19,776] Trial 44 finished with value: 0.7665 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.3414877997973628, 'learning_rate': 0.00024648960496627035, 'num_epochs': 15, 'batch_size': 64}. Best is trial 41 with value: 0.7827.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 45:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.24543283163574797, learning_rate = 0.00035194346111708534, batch_size = 64
+epochs = 15
+[I 2024-12-26 02:24:42,682] Trial 45 finished with value: 0.7795 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.24543283163574797, 'learning_rate': 0.00035194346111708534, 'num_epochs': 15, 'batch_size': 64}. Best is trial 41 with value: 0.7827.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 46:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.23807823707261966, learning_rate = 0.0003563408745749142, batch_size = 64
+epochs = 15
+[I 2024-12-26 02:26:06,127] Trial 46 finished with value: 0.7772 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.23807823707261966, 'learning_rate': 0.0003563408745749142, 'num_epochs': 15, 'batch_size': 64}. Best is trial 41 with value: 0.7827.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 47:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.24184870502664627, learning_rate = 0.00018120791564666715, batch_size = 64
+epochs = 15
+[I 2024-12-26 02:27:30,623] Trial 47 finished with value: 0.7729 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.24184870502664627, 'learning_rate': 0.00018120791564666715, 'num_epochs': 15, 'batch_size': 64}. Best is trial 41 with value: 0.7827.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 48:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.17762958186505418, learning_rate = 0.0003045632283876209, batch_size = 64
+epochs = 15
+[I 2024-12-26 02:28:53,853] Trial 48 finished with value: 0.7721 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.17762958186505418, 'learning_rate': 0.0003045632283876209, 'num_epochs': 15, 'batch_size': 64}. Best is trial 41 with value: 0.7827.
+Files already downloaded and verified
+Files already downloaded and verified
+Trial 49:
+  num_filters = 64, kernel_size = 4, num_conv_layers = 3, dropout_rate = 0.203297277108873, learning_rate = 0.00011704883215261226, batch_size = 64
+epochs = 15
+[I 2024-12-26 02:30:17,236] Trial 49 finished with value: 0.7496 and parameters: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.203297277108873, 'learning_rate': 0.00011704883215261226, 'num_epochs': 15, 'batch_size': 64}. Best is trial 41 with value: 0.7827.
+Лучшие гиперпараметры: {'num_filters': 64, 'kernel_size': 4, 'num_conv_layers': 3, 'dropout_rate': 0.30566348890628353, 'learning_rate': 0.0003354011509627172, 'num_epochs': 15, 'batch_size': 64}
+Лучшая точность: 0.7827
+
+Process finished with exit code 0
